@@ -1,0 +1,194 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar nav ul li {
+    display: inline;
+  }
+  
+  .navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar nav ul li a:hover {
+    color: #f0a500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    padding: 12px 25px;
+    background-color: #f0a500;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero button:hover {
+    background-color: #e08500;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .about .content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about .content p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content p {
+    font-size: 1em;
+  }
+  
+  /* Responsive Design */
+  
+  /* Mobil qurilmalar uchun */
+  @media screen and (max-width: 768px) {
+    .navbar nav ul {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    .hero h1 {
+      font-size: 2.5em;
+    }
+  
+    .hero p {
+      font-size: 1.3em;
+    }
+  
+    .hero button {
+      font-size: 14px;
+    }
+  
+    .about .content h2 {
+      font-size: 2em;
+    }
+  
+    .about .content p {
+      font-size: 1em;
+      max-width: 100%;
+    }
+  
+    footer {
+      font-size: 0.9em;
+      padding: 10px 0;
+    }
+  }
+  
+  /* Kichik ekranli telefonlar uchun */
+  @media screen and (max-width: 480px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .navbar .logo {
+      font-size: 20px;
+    }
+  
+    .navbar nav ul li a {
+      font-size: 14px;
+    }
+  
+    .hero {
+      padding: 40px 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .hero p {
+      font-size: 1.2em;
+    }
+  
+    .hero button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .about .content h2 {
+      font-size: 1.8em;
+    }
+  
+    .about .content p {
+      font-size: 0.9em;
+      margin: 0 20px;
+    }
+  
+    footer {
+      font-size: 0.8em;
+      padding: 8px 0;
+    }
+  }
+  
